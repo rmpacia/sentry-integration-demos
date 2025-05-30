@@ -27,24 +27,3 @@ flask run
 
 Vist:
 http://localhost:5000/debug-sentry
-
----
-
-## 📄 react-sentry-demo/README.md
-
-```markdown
-# React Sentry Integration Demo
-
-## Overview
-React app that integrates Sentry and allows triggering a sample error via button click.
-
-## Setup
-
-```bash
-git clone https://github.com/yourname/sentry-integration-demos.git
-cd sentry-integration-demos/react-sentry-demo
-npm install
-
-In src/index.js:
-
-Sentry.init({ dsn: 'YOUR_DSN_HERE' });
